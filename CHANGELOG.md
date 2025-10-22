@@ -69,6 +69,75 @@ or via the JSON Settings Editor in the Application Context Menu.
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 7.5.0b1
+
+([Full Changelog](https://github.com/jupyter/notebook/compare/@jupyter-notebook/application-extension@7.5.0-beta.0...7f84b95ed6550508f9de03d27cd8c2cb84777648))
+
+### Enhancements made
+
+- Update to JupyterLab v4.5.0b1 [#7746](https://github.com/jupyter/notebook/pull/7746) ([@jtpio](https://github.com/jtpio))
+
+### Maintenance and upkeep improvements
+
+- Use Node.js 24 / npm 11 to publish releases [#7749](https://github.com/jupyter/notebook/pull/7749) ([@jtpio](https://github.com/jtpio))
+
+### Documentation improvements
+
+- Update JupyterCon 2025 announcement links [#7744](https://github.com/jupyter/notebook/pull/7744) ([@krassowski](https://github.com/krassowski))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyter/notebook/graphs/contributors?from=2025-09-29&to=2025-10-20&type=c))
+
+[@github-actions](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Agithub-actions+updated%3A2025-09-29..2025-10-20&type=Issues) | [@jtpio](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Ajtpio+updated%3A2025-09-29..2025-10-20&type=Issues) | [@krassowski](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Akrassowski+updated%3A2025-09-29..2025-10-20&type=Issues) | [@nkn2022](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Ankn2022+updated%3A2025-09-29..2025-10-20&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
+## 7.5.0b0
+
+([Full Changelog](https://github.com/jupyter/notebook/compare/@jupyter-notebook/application-extension@7.5.0-alpha.3...828708ec26cc4d2ff9f8b725b00024481ae42d2d))
+
+### Enhancements made
+
+- Update to JupyterLab v4.5.0b0 [#7739](https://github.com/jupyter/notebook/pull/7739) ([@jtpio](https://github.com/jtpio))
+
+### Documentation improvements
+
+- Add JupyterCon banner and add Jupyter colors [#7727](https://github.com/jupyter/notebook/pull/7727) ([@choldgraf](https://github.com/choldgraf))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyter/notebook/graphs/contributors?from=2025-09-24&to=2025-09-29&type=c))
+
+[@choldgraf](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Acholdgraf+updated%3A2025-09-24..2025-09-29&type=Issues) | [@github-actions](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Agithub-actions+updated%3A2025-09-24..2025-09-29&type=Issues) | [@jtpio](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Ajtpio+updated%3A2025-09-24..2025-09-29&type=Issues)
+
+## 7.5.0a3
+
+([Full Changelog](https://github.com/jupyter/notebook/compare/@jupyter-notebook/application-extension@7.5.0-alpha.2...254b06ca4b232a0a96ad2dddde560e41df371e57))
+
+### Enhancements made
+
+- Update to JupyterLab v4.5.0a4 [#7728](https://github.com/jupyter/notebook/pull/7728) ([@jtpio](https://github.com/jtpio))
+- Increase the checkpoint polling interval to 30s [#7711](https://github.com/jupyter/notebook/pull/7711) ([@jtpio](https://github.com/jtpio))
+- Define `O` as the keyboard shortcut to toggle cell outputs [#7709](https://github.com/jupyter/notebook/pull/7709) ([@jtpio](https://github.com/jtpio))
+
+### Bugs fixed
+
+- Handle file rename errors [#7710](https://github.com/jupyter/notebook/pull/7710) ([@jtpio](https://github.com/jtpio))
+
+### Maintenance and upkeep improvements
+
+- Revert "Pin `click<8.3`" [#7733](https://github.com/jupyter/notebook/pull/7733) ([@jtpio](https://github.com/jtpio))
+- Remove link to `npmjs.com` [#7730](https://github.com/jupyter/notebook/pull/7730) ([@jtpio](https://github.com/jtpio))
+- Pin `click<8.3` [#7729](https://github.com/jupyter/notebook/pull/7729) ([@jtpio](https://github.com/jtpio))
+- Bump the actions group across 1 directory with 3 updates [#7704](https://github.com/jupyter/notebook/pull/7704) ([@dependabot](https://github.com/dependabot))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyter/notebook/graphs/contributors?from=2025-08-18&to=2025-09-24&type=c))
+
+[@dependabot](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Adependabot+updated%3A2025-08-18..2025-09-24&type=Issues) | [@github-actions](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Agithub-actions+updated%3A2025-08-18..2025-09-24&type=Issues) | [@jtpio](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Ajtpio+updated%3A2025-08-18..2025-09-24&type=Issues) | [@nkn2022](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Ankn2022+updated%3A2025-08-18..2025-09-24&type=Issues)
+
 ## 7.5.0a2
 
 ([Full Changelog](https://github.com/jupyter/notebook/compare/@jupyter-notebook/application-extension@7.5.0-alpha.1...3100d879bfe09c629b4add998bd2ac408ffa2af8))
@@ -86,8 +155,6 @@ or via the JSON Settings Editor in the Application Context Menu.
 ([GitHub contributors page for this release](https://github.com/jupyter/notebook/graphs/contributors?from=2025-08-11&to=2025-08-18&type=c))
 
 [@github-actions](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Agithub-actions+updated%3A2025-08-11..2025-08-18&type=Issues) | [@itsmevichu](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Aitsmevichu+updated%3A2025-08-11..2025-08-18&type=Issues) | [@jtpio](https://github.com/search?q=repo%3Ajupyter%2Fnotebook+involves%3Ajtpio+updated%3A2025-08-11..2025-08-18&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 7.5.0a1
 
